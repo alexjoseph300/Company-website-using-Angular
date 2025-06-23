@@ -1,0 +1,14 @@
+.top-banner {
+  width: 100%;
+  height: 370px; /* your desired height */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.top-banner img {
+  height: 100%;
+  width: auto;
+}

@@ -1,0 +1,11 @@
+.top-banner {
+  width: 100%; /* Makes the banner extend fully */
+  height: 250px; /* Adjust height */
+  overflow: hidden;
+}
+
+.top-banner img {
+  width: 100%; /* Ensures it reaches the right edge */
+  height: 100%;
+  object-fit: cover; /* Keeps proportions */
+}

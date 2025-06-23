@@ -1,0 +1,73 @@
+.banner-image {
+  width: 1550px; /* Adjust width */
+  height: 475px; /* Adjust height */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Banner Section */
+.banner-container {
+  position: relative;
+  width: 100%;
+}
+
+
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: #007bff;
+}
+
+/* How We Work Section */
+#how-we-work {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 60px;
+}
+
+#how-we-work .row {
+  display: flex;
+  align-items: center;
+}
+
+/* Text Styling */
+#how-we-work h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+#how-we-work p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Image Styling */
+#how-we-work img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #how-we-work .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #how-we-work img {
+    max-width: 80%;
+  }
+}

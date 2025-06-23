@@ -1,0 +1,51 @@
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer p,
+footer ul {
+  font-size: 0.9rem;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer a i {
+  font-size: 1.5rem;
+  margin: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a i:hover {
+  color: #ffc107;
+}
+
+hr.bg-light {
+  opacity: 0.2;
+}
+
+@media (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
